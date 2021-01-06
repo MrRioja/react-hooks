@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*, input, button {
+  font-family: Arial, sans-serif;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: #242433;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  border-radius: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background: #2B2B3C;
+  border: 3px solid black;
+  margin: 15px;
+  color: white;
+}
