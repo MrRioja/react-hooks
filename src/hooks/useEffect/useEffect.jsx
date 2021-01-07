@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
-import "./useState.css";
+import "./useEffect.css";
 
-function State() {
+function Effect() {
   const [counter, setCounter] = useState(0);
 
   useEffect(() => {
-    setCounter(localStorage.getItem("counter"));
+    setCounter(sessionStorage.getItem("counter"));
   }, []);
 
   return (
@@ -16,4 +16,4 @@ function State() {
   );
 }
 
-export default State;
+export default Effect;

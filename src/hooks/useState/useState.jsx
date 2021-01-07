@@ -6,12 +6,12 @@ function State() {
 
   function handlePlus() {
     setCounter((prevState) => prevState + 1);
-    localStorage.setItem("counter", counter + 1);
+    sessionStorage.setItem("counter", counter + 1);
   }
 
   function handleMinus() {
     setCounter((prevState) => prevState - 1);
-    localStorage.setItem("counter", counter - 1);
+    sessionStorage.setItem("counter", counter - 1);
   }
 
   return (
