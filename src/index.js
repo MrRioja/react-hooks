@@ -7,6 +7,7 @@ import Context from "./hooks/useContext/useContext";
 import Reducer from "./hooks/useReducer/useReducer";
 import Callback from "./hooks/useCallback/useCallback";
 import Memo from "./hooks/useMemo/useMemo";
+import Ref from "./hooks/useRef/useRef";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -16,6 +17,7 @@ ReactDOM.render(
     <Reducer />
     <Callback />
     <Memo />
+    <Ref />
   </React.StrictMode>,
   document.getElementById("root")
 );
