@@ -8,6 +8,7 @@ import Reducer from "./hooks/useReducer/useReducer";
 import Callback from "./hooks/useCallback/useCallback";
 import Memo from "./hooks/useMemo/useMemo";
 import Ref from "./hooks/useRef/useRef";
+import ImperativeHandle from "./hooks/useImperativeHandle/useImperativeHandle";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -18,6 +19,7 @@ ReactDOM.render(
     <Callback />
     <Memo />
     <Ref />
+    <ImperativeHandle />
   </React.StrictMode>,
   document.getElementById("root")
 );
