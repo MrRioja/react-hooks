@@ -9,11 +9,13 @@ import Callback from "./hooks/useCallback/useCallback";
 import Memo from "./hooks/useMemo/useMemo";
 import Ref from "./hooks/useRef/useRef";
 import ImperativeHandle from "./hooks/useImperativeHandle/useImperativeHandle";
+import LayoutEffect from "./hooks/useLayoutEffect/useLayoutEffect";
 
 ReactDOM.render(
   <React.StrictMode>
     <State />
     <Effect />
+    <LayoutEffect />
     <Context />
     <Reducer />
     <Callback />
