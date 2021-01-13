@@ -11,6 +11,7 @@ import Ref from "./hooks/useRef/useRef";
 import ImperativeHandle from "./hooks/useImperativeHandle/useImperativeHandle";
 import LayoutEffect from "./hooks/useLayoutEffect/useLayoutEffect";
 import LocalState from "./hooks/useLocalState/useLocalState";
+import DebugValue from "./hooks/useDebugValue/useDebugValue";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -18,6 +19,7 @@ ReactDOM.render(
     <Effect />
     <LayoutEffect />
     <LocalState />
+    <DebugValue />
     <Context />
     <Reducer />
     <Callback />
