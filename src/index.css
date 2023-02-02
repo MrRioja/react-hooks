@@ -4,11 +4,14 @@
   box-sizing: border-box;
 }
 
-*, input, button {
+*,
+input,
+button {
   font-family: Arial, sans-serif;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -16,4 +19,13 @@ body {
   background: #242433;
   margin: 0;
   padding: 0;
+}
+
+div#root {
+  display: grid;
+  height: "100%";
+  align-items: center;
+  align-content: center;
+  justify-content: space-evenly;
+  grid-template-columns: repeat(4, auto);
 }
